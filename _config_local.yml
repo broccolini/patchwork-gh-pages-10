@@ -1,0 +1,17 @@
+# Site settings
+title: Nikolai's Portfolio
+email: nikolai@wheelhouse.io
+description: > # this means to ignore newlines until "baseurl:"
+  This is my first Jekyll site, made following the tutorial at http://www.taniarascia.com/make-a-static-website-with-jekyll/
+baseurl: ""
+url: "http://localhost:4000"
+twitter_username: chowdhury
+github_username:  chowdhury
+permalink: /blog/:year/:title/
+
+# Build settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
